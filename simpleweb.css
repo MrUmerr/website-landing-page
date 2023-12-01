@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper>header {
+    padding-inline: 2.2em;
+    background-image: url(./images/bkg_img.jpg);
+    background-size: cover;
+    background-position: center;
+
+    min-height: 100vh;
+
+    overflow: hidden;
+}
+
+.wrapper>header>nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 1em;
+}
+
+nav>a {
+    text-decoration: none;
+    font-size: 2.3rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+    gap: 2em;
+
+    list-style-type: none;
+}
+
+ul>li>a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+nav>button {
+    font-size: 1.25rem;
+
+    padding: 0.6em 0.8em;
+}
+
+/* hero */
+.wrapper>header>.Hero {
+    text-align: center;
+
+    margin-top: 8em;
+}
+
+.Hero>h1 {
+    font-size: 4rem;
+    color: white;
+
+    margin-bottom: 0.5em;
+}
+
+.Hero>form {
+    height: 4em;
+}
+
+form>input {
+    width: 23em;
+    height: 100%;
+    padding-left: 1em;
+    font-size: 1.2rem;
+}
+
+
+
+form>button {
+    width: 8em;
+    height: 100%;
+
+    font-size: 1.2rem;
+}
+
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+
+    margin: 4em;
+}
+
+.features > .card {
+    padding: 1.8em;
+}
+
+.card > h1 {
+    font-size: 1.8rem;
+
+    margin-bottom: 0.5em;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4em;
+
+    margin: 5.2em;
+}
+
+footer > .links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+} 
+
+.links > a {
+    text-decoration: none;
+    color: black;
+}
+
